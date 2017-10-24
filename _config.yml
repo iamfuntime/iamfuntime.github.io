@@ -17,7 +17,8 @@ baseurl: ""
 title: Tech Nerdy to Me
 
 # Short description of your site
-description: DO || !DO ; try  
+description: | 
+  DO || ! DO ; try  
   try: command not found
 
 # --- Navigation bar options --- #
