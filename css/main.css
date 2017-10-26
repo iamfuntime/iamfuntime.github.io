@@ -749,3 +749,14 @@ td.gutter {
 .gist, .gist-file table tr td {
   border: unset;
 }
+
+/* --- img settings -- */ 
+.float-left {
+  float: left
+  padding: 0px 10px 0px 0px
+}
+
+.float-right {
+  float: right
+  padding-left: 0px 0px 0px 10px
+}
