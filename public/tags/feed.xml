@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Seth Feldman – Advancing Cybersecurity Through Strategy, Detection, and Leadership</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Seth Feldman – Advancing Cybersecurity Through Strategy, Detection, and Leadership</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tags/azure/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/tags/cloud/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lessons-Learned</title>
+      <link>http://localhost:1313/tags/lessons-learned/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lessons-learned/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:1313/tags/architecture/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>http://localhost:1313/tags/enterprise/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero-Trust</title>
+      <link>http://localhost:1313/tags/zero-trust/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/zero-trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Careers</title>
+      <link>http://localhost:1313/tags/careers/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/careers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:1313/tags/leadership/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>http://localhost:1313/tags/management/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Team-Building</title>
+      <link>http://localhost:1313/tags/team-building/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/team-building/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

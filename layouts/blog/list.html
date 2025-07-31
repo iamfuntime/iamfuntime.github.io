@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="container">
+    <div class="content">
+        <div class="card">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </div>
+        
+        {{ if .Pages }}
+        <div class="blog-grid">
+            {{ range .Pages }}
+            <article class="blog-card">
+                <div class="blog-card-content">
+                    <h2 class="blog-card-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+                    
+                    <div class="blog-card-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                        {{ if .Params.readingTime }}
+                        · {{ .Params.readingTime }} min read
+                        {{ end }}
+                    </div>
+                    
+                    <p class="blog-card-excerpt">
+                        {{ if .Description }}
+                            {{ .Description }}
+                        {{ else }}
+                            {{ .Summary }}
+                        {{ end }}
+                    </p>
+                    
+                    {{ if .Params.tags }}
+                    <div class="blog-card-tags">
+                        {{ range .Params.tags }}
+                        <span class="tag {{ if eq . "security" }}primary{{ else if eq . "leadership" }}accent{{ end }}">
+                            {{ . }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+        {{ else }}
+        <div class="card">
+            <h2>Coming Soon</h2>
+            <p>Blog posts are coming soon! I'll be sharing insights on cybersecurity trends, best practices, threat analysis, and lessons learned from 20+ years in the industry.</p>
+            
+            <h3>Planned Topics</h3>
+            <ul>
+                <li>Zero Trust Architecture: Beyond the Hype</li>
+                <li>Building Resilient Security Teams</li>
+                <li>Cloud Security in 2024: Lessons Learned</li>
+                <li>The Evolution of Threat Intelligence</li>
+                <li>Incident Response: What I've Learned from 100+ Breaches</li>
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

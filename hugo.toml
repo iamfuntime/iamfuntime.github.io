@@ -1,0 +1,33 @@
+baseURL = 'https://iamfuntime.github.io'
+languageCode = 'en-us'
+title = 'Seth Feldman – Advancing Cybersecurity Through Strategy, Detection, and Leadership'
+
+[params]
+  description = "Cybersecurity strategist, red teamer, and AI-driven builder shaping the future of offensive and defensive security"
+  author = "Seth Feldman"
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"

@@ -1,0 +1,88 @@
+{{ define "main" }}
+<div class="hero">
+    <div class="container">
+        <h1 class="hero-title">{{ .Site.Params.author | default "Your Name" }}</h1>
+        <p class="hero-subtitle">Blending offensive security concepts   , AI innovation, and hands-on defense to secure the digital frontier</p>
+        <p class="hero-subtitle">Protecting digital assets and building secure infrastructures</p>
+    </div>
+</div>
+
+<section class="container">
+    <div class="content">
+        {{ .Content }}
+        
+        <div class="card">
+            <h2>About Me</h2>
+            <p>With nearly two decades of experience in cybersecurity, I specialize in detection engineering, incident response, and building modern, AI-driven security operations tailored to complex environments. I leverage offensive security concepts to enhance defense—thinking like an attacker to stay one step ahead</p>
+            
+            <h3>Areas of Expertise</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Security Architecture & Engineering </h4>
+                    <ul class="skill-list">
+                        <li>Cloud Security</li>
+                        <li>Network Architecture</li>
+                        <li>SIEM & Log Pipelines</li>
+                        <li>Endpoint Hardening</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Threat Detection & Response</h4>
+                    <ul class="skill-list">
+                        <li>Detection-as-Code</li>
+                        <li>Threat Hunting</li>
+                        <li>Incident Response</li>
+                        <li>MITRE ATT&CK Mapping</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Technical Skills</h4>
+                    <ul class="skill-list">
+                        <li>Detection Engineering</li>
+                        <li>Cloud & Network Security Architecture</li>
+                        <li>Threat Intelligence</li>
+                        <li>Adversary Simulation</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Leadership</h4>
+                    <ul class="skill-list">
+                        <li>Team Enablement & Mentorship</li>
+                        <li>Customer Advisory & Communication</li>
+                        <li>Executive Incident Briefing</li>
+                        <li>MSSP/XDR Strategy & Planning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Recent Highlights</h2>
+            <ul>
+                <li>Built a scalable, AI-enhanced detection pipeline integrating open-source tools for endpoint and network telemetry analysis</li>
+                <li>Led a compromise assessment for a healthcare provider, uncovering lateral movement and credential harvesting post-infection</li>
+                <li>Developed a library of detections mapped to MITRE ATT&CK for cloud and endpoint visibility across customer environments</li>
+                <li>Advised C-level executives during a live incident response engagement, bridging technical findings with strategic action plans</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Latest Blog Posts</h2>
+            {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+            <div class="blog-card-content">
+                <h3 class="blog-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <div class="blog-card-meta">{{ .Date.Format "January 2, 2006" }}</div>
+                <p class="blog-card-excerpt">{{ .Summary }}</p>
+            </div>
+            {{ end }}
+            
+            {{ if not (where .Site.RegularPages "Section" "blog") }}
+            <p>Blog posts coming soon! I'll be sharing insights on cybersecurity trends, best practices, and industry experiences.</p>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
