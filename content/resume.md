@@ -90,7 +90,7 @@ Accomplished and innovative cybersecurity professional with over 20 years of ext
 ## Certifications
 
 - **GCIA** - GIAC Certified Intrusion Analyst (Expired) *#3643*
-- **CompTIA Security +**
+- **CompTIA Security+ +**
 - **CCSP** - Certified Cloud Security Professional (Expired) *(#828477)*
 
 ---
