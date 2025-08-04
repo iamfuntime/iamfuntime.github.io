@@ -1,6 +1,6 @@
 ---
 title: "Professionalism in Cybersecurity: Leading with Integrity"
-date: 2025-02-01
+date: 2025-02-21
 description: "Fifteen years of cybersecurity leadership has taught me that technical skills get you hired, but professional integrity determines your lasting impact on teams and organizations"
 tags: ["leadership", "professionalism", "ethics", "career-development"]
 readingTime: 9
