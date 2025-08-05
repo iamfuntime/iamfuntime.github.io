@@ -4,14 +4,6 @@ description: "Experienced cybersecurity strategist with a focus on detection eng
 menu: "main"
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/Seth_Feldman_Resume.pdf" 
-     download="Seth_Feldman_Resume.pdf" 
-     style="display: inline-block; background: #2563eb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s ease;">
-    📄 Download PDF Resume
-  </a>
-</div>
-
 # Professional Summary
 
 Accomplished and innovative cybersecurity professional with over 20 years of extensive experience in the Information Security sector, specializing in custom threat detection, security engineering, endpoint, and network security. Proven expertise in understanding penetration testing procedures to identify vulnerabilities and recommend robust security solutions. Solid track record of developing and implementing comprehensive security protocols, with a strong ability to identify, evaluate, and mitigate potential risks and threats. Adept at leading cross-functional teams and managing multiple projects concurrently. A dynamic leader that consistently stays at the forefront of emerging trends, technologies, and advancements in cybersecurity. Passionately committed to ensuring the integrity, confidentiality, and availability of corporate data and information systems.
@@ -111,3 +103,11 @@ Accomplished and innovative cybersecurity professional with over 20 years of ext
 ---
 
 *References available upon request*
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="/Seth_Feldman_Resume.pdf" 
+     download="Seth_Feldman_Resume.pdf" 
+     style="display: inline-block; background: #2563eb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s ease;">
+    📄 Download PDF Resume
+  </a>
+</div>
