@@ -22,6 +22,12 @@ Accomplished and innovative cybersecurity professional with over 20 years of ext
 
 ### Head, Cyber Threat Engineering & Response
 **Ostra Security** | *July 2025 - Present*
+- Streamline alert ingestion pipelines to reduce noise and enable analysts to focus on high-priority incidents.
+- Design and implement automation within SOC triage and incident handling workflows to accelerate response times.
+- Direct detection engineering initiatives across network, endpoint, and cloud environments to strengthen coverage of adversary TTPs.
+- Develop and operationalize threat hunting and threat intelligence playbooks to proactively identify and mitigate emerging threats.
+- Lead and expand SOC, detection engineering, and threat hunting teams while improving onboarding through structured training and standardized workflows.
+- Provide strategic alignment of security operations with business objectives to enhance event correlation accuracy and overall organizational resilience.
 
 ### Principal, Threat & Security Response
 **Blackwell Security** | *October 2023 - July 2025*
