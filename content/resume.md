@@ -20,8 +20,12 @@ Accomplished and innovative cybersecurity professional with over 20 years of ext
 
 ## Professional Experience
 
+### Cyber Delivery Engineer
+**Stealth startup** | *October 2026 - Present*
+- Helping organizations adopt AI to strengthen security workflows and make people more effective.
+
 ### Head, Cyber Threat Engineering & Response
-**Ostra Security** | *July 2025 - Present*
+**Ostra Security** | *July 2025 - October 2026*
 - Streamline alert ingestion pipelines to reduce noise and enable analysts to focus on high-priority incidents.
 - Design and implement automation within SOC triage and incident handling workflows to accelerate response times.
 - Direct detection engineering initiatives across network, endpoint, and cloud environments to strengthen coverage of adversary TTPs.
