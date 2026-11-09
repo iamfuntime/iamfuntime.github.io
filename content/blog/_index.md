@@ -5,7 +5,7 @@ description: "Expert perspectives on cybersecurity strategy, modern defense, and
 
 # Cybersecurity Insights & Analysis
 
-Welcome to the blog—where deep technical insight meets real-world application. With over two decades in cybersecurity, I explore the intersection of offensive-informed defense, modern security architecture, and operational leadership. Whether you're leading a security program, building detection capabilities, or navigating the evolving threat landscape, you'll find practical guidance and sharp analysis grounded in frontline experience.
+Welcome to the blog, where technical work meets real-world delivery. With 18+ years in security operations, I write about production agentic AI, detection engineering, and the work of taking security capabilities from discovery through production.
 
 ## Topics I Cover
 
